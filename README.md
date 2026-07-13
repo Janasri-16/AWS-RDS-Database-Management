@@ -1,8 +1,5 @@
 # AWS RDS Database Management
 
-Enterprise database administration project using Amazon RDS, Amazon EC2, SQL, CloudWatch, Security Groups, and RDS Snapshots.
-# AWS RDS Database Management
-
 A hands-on AWS Cloud project demonstrating secure deployment and administration of a MySQL database using **Amazon RDS**. The project showcases database provisioning, secure networking, SQL operations, monitoring, backups, and infrastructure best practices using AWS services.
 
 ---
@@ -12,14 +9,6 @@ A hands-on AWS Cloud project demonstrating secure deployment and administration 
 This project demonstrates how to deploy and manage a relational database in AWS using Amazon RDS while following cloud security best practices.
 
 An Ubuntu EC2 instance was configured as a database administration server. Secure communication between EC2 and RDS was established using Security Groups, allowing MySQL traffic only from the EC2 instance. The database was populated with sample data, SQL queries were executed, CloudWatch metrics were monitored, and manual snapshots were created for backup and recovery.
-
----
-
-## Architecture
-
-<p align="center">
-<img src="architecture/architecture.png" width="900">
-</p>
 
 ---
 
@@ -214,15 +203,6 @@ Amazon CloudWatch was used to monitor:
 ### SQL Query Execution
 
 ![](screenshots/07 queries.png)
-
----
-
-### CloudWatch Monitoring
-
-<p align="center">
-<img src="screenshots/08-cloudwatch-cpu-connections.png" width="48%">
-<img src="screenshots/08-cloudwatch-storage-iops.png" width="48%">
-</p>
 
 ---
 
